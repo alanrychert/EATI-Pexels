@@ -3,6 +3,6 @@
     <string name="textfield_label">"Concept"</string>
     <string name="image_author">Author: %s</string>
     <string name="blank_search">Please enter a concept to search</string>
-    <string name="app_author_message">The author of this app is Alan Rychert</string>
+    <string name="app_author_message">Project edited by Alan Rychert</string>
 
 </resources>
