@@ -115,7 +115,7 @@ fun PhotosScaffold(results: List<Photo>,updateResults: (String) -> Unit){
     ) {
         Column {
             SearchRow(updateResults)
-            LazyVerticalGrid(columns = GridCells.Fixed(2) ){
+            LazyVerticalGrid(columns = GridCells.Adaptive(minSize = 164.dp) ){
                 items(results) {
                         photo -> PhotoItem(photo)
                 }
